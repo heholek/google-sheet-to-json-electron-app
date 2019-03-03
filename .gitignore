@@ -84,3 +84,14 @@ typings/
 # System Files
 .DS_Store
 Thumbs.db
+
+
+# Electron Vue additions
+dist/electron/*
+dist/web/*
+build/*
+!build/icons
+
+
+# Git keep files
+!.gitkeep
