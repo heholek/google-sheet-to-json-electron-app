@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Adrian Parr <adrianparr@gmail.com>",
   "description": "Google Sheet to JSON Electron App using Vue.js",
-  "license": null,
+  "private": true,
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
@@ -19,7 +19,7 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "google-sheet-to-json-electron-app",
+    "productName": "Google Sheet to JSON",
     "appId": "com.adrianparr.google-sheet-to-json-electron-app",
     "directories": {
       "output": "build"
